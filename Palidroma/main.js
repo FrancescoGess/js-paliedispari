@@ -1,9 +1,4 @@
 const utente = prompt("Inserisci una parola", "tulipano")
-
-
-
-
-
 function parolaPalindroma(parola){
    
 const lunghezza = parola.length
@@ -19,8 +14,8 @@ return true
     
 }
 
-if(parolaPalindroma(utente)){
+    if(parolaPalindroma(utente)){
     console.log("la parola e palindroma")
-}else{
+    }else{
     console.log("non e una parola palindroma")
-}
+    }
